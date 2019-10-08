@@ -19,7 +19,7 @@ players.cycle do |player|
       if number.between?(1, 3) && number <= stones
         break
       else
-        puts "Please enter correct number!"
+        puts "Please enter the correct number!"
       end
     end
 
